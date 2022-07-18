@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\Admin\\Desktop\\itublockchain\\contracts\\Lock.sol": {
-      "lastModificationDate": 1657828268336,
-      "contentHash": "d0c4ad2ebc00eedb3c021e05aadf4355",
+      "lastModificationDate": 1658132254031,
+      "contentHash": "06c402502a762c3ad47ad18e4ae12c58",
       "sourceName": "contracts/Lock.sol",
       "solcConfig": {
         "version": "0.8.2",
@@ -29,7 +29,8 @@
         }
       },
       "imports": [
-        "./Token.sol"
+        "./Token.sol",
+        "hardhat/console.sol"
       ],
       "versionPragmas": [
         "^0.8.2"
@@ -219,6 +220,41 @@
       ],
       "artifacts": [
         "Context"
+      ]
+    },
+    "C:\\Users\\Admin\\Desktop\\itublockchain\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1657820269409,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.2",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
       ]
     }
   }
